@@ -159,3 +159,9 @@
 @media (max-width: 767.98px) {
   .tf-footer .tf-design {
     text-align: left !important; } }
+
+
+/* CSS NEW Gaudenz */
+ .bg-light {
+  background-color: #ebebeb !important;
+ }
