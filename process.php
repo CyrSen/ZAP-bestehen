@@ -16,12 +16,12 @@
                     $email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
                     if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
                         $to = 'cvsenger@gmail.com'; // Your email address
-                        $subject = 'New Email Subscription';
+                        $subject = 'ZAP-Mail';
                         $message = 'New email subscription: ' . $email;
                         $headers = 'From: ' . $email;
 
                         if (mail($to, $subject, $message, $headers)) {
-                            echo '<div class="alert alert-success" role="alert">Thank you for subscribing!</div>';
+                            echo '<div class="alert alert-success" role="alert">Wir melden uns in Kürze.</div>';
                         } else {
                             echo '<div class="alert alert-danger" role="alert">Subscription failed. Please try again later.</div>';
                         }
@@ -33,7 +33,7 @@
 
                 <div class="row justify-content-center">
                     <div class="col-4">
-                        <a href="index.html" class="btn btn-primary">Back to Homepage</a>
+                        <a href="index.html" class="btn btn-primary">Zurück</a>
                     </div>
                 </div>
                 <div class="row justify-content-center">
