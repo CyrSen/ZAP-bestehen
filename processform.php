@@ -9,7 +9,13 @@
 <body>
     <div class="container">
         <div class="row justify-content-center align-items-center" style="height: 100vh;">
-            <div class="col-md-6">
+            <div class="col-md-4 text-center">
+            <img
+            src="images/1-hero-image.jpg"
+            class="mb-5"
+            alt="Your Logo"
+            style="width: 300px; height: auto"/>
+
                 <?php
                 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     $name = $_POST['name'];
@@ -27,7 +33,7 @@
                         $headers = 'From: ' . $email;
 
                         if (mail($to, $subject, $message, $headers)) {
-                            echo '<div class="alert alert-success" role="alert">Vielen Dank. Wir melden uns in Kürze.</div>';
+                            echo '<div class="alert alert-info" role="alert">Vielen Dank. Wir melden uns in Kürze.</div>';
                         } else {
                             echo '<div class="alert alert-danger" role="alert">Message delivery failed. Please try again later.</div>';
                         }
@@ -36,7 +42,7 @@
                 ?>
 
                 <div class="row justify-content-center">
-                    <div class="col-4">
+                    <div class="col-4 text-center">
                         <a href="index.html" class="btn btn-primary">Zurück</a>
                     </div>
                 </div>
