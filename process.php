@@ -9,7 +9,7 @@
 <body>
     <div class="container">
         <div class="row justify-content-center align-items-center" style="height: 100vh;">
-            <div class="col-md-4 text-center">
+            <div class="col-md-4 col-12 text-center">
             <img
             src="images/1-hero-image.jpg"
             class="mb-5"
@@ -38,12 +38,12 @@
                 ?>
 
                 <div class="row justify-content-center">
-                    <div class="col-4 text-center">
+                    <div class="col-md-6 col-12">
                         <a href="index.html" class="btn btn-primary">Zurück</a>
                     </div>
                 </div>
                 <div class="row justify-content-center">
-                    <div class="col-6">
+                    <div class="col-md-6 col-12">
                         <img src="images/zap-bestehen-qr.png" class="img-fluid mt-3" alt="qr-code">
                     </div>
                 </div>
