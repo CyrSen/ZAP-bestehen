@@ -13,9 +13,10 @@
         <noscript>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&amp;display=swap"/>
         </noscript>
-        <link href="css/bootstrap.min.css?ver=1.2.0" rel="stylesheet">
+        
         <!-- Include Bootstrap 5.3 CSS -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+        <link href="css/bootstrap.min.css?ver=1.2.0" rel="stylesheet">
         <link href="./css/main.css" rel="stylesheet">   
     </head>
 
@@ -56,7 +57,7 @@
 
                     <div class="row justify-content-center">
                         <div class="col-4 text-center">
-                            <a href="index.html" class="btn btn-own">Zurück</a>
+                            <a href="index.html" class="btn btn-primary" style="color: #fff; background-color: #ff574e; border-color: #ff574e;">Zurück</a>
                         </div>
                     </div>
                     <div class="row justify-content-center">
