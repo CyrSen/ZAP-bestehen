@@ -2,6 +2,20 @@
 <html>
 
 <head>
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ZAP bestehen</title>
+    <link rel="icon" type="image/x-icon" href=".//zap_favicon_03.png">
+    <meta name="google-site-verification" content="cQOkJTMCVDrvuJH5ZXIVxSmwqEHW8lWgSpWbmZLPK1g" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&amp;display=swap"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&amp;display=swap" media="print" onload="this.media='all'"/>
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&amp;display=swap"/>
+    </noscript>
+    <link href="css/bootstrap.min.css?ver=1.2.0" rel="stylesheet">
+    <link href="./css/main.css" rel="stylesheet">
     <!-- Include Bootstrap 5.3 CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
 </head>
